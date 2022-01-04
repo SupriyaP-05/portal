@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#app {
+  min-height: 100vh;
+  background: #663399;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+button {
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+  
+.modal {
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  animation: show .25s ease forwards;
+  z-index: 9;
+  background: #663399;
+  padding: 1rem;
+  min-height: 200px;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+  
+  .modal__close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+   
